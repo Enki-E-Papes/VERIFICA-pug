@@ -1,0 +1,15 @@
+
+doctype html
+html
+  head
+    title= animale.nome
+  body
+    header
+      nav
+        ul
+          li: a(href="/") Home
+          li: a(href="https://i.imgur.com/ub9uK8u.png") Elenco animali
+    main
+      h1= animale.nome
+      p= animale.descrizione
+      img(src=animale.immagine, alt=animale.nome)
